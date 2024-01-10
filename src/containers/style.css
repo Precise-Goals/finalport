@@ -164,7 +164,9 @@ button.projects:hover {
   color: white;
   border: 3px solid white;
 }
-.texts,.lay,.lay a{
+.texts,
+.lay,
+.lay a {
   position: relative;
 }
 .lay::after {
@@ -179,13 +181,13 @@ button.projects:hover {
 }
 .texts::after {
   content: "";
-  width: 100%;
-  height: 18rem;
-  background: #414141;
-  transform: translate(-43%,0);
-  border-radius: 4rem;
+  width: 85%;
+  height: 25rem;
+  background: linear-gradient(47deg, #8a82828e, #b7b7bd14);
+  border-radius: 5rem 50rem 19rem 50rem;
   position: absolute;
   z-index: -1;
+  transform: translate(-20%, 0%);
 }
 .lay a::after {
   content: "";
@@ -195,5 +197,5 @@ button.projects:hover {
   display: block;
   position: absolute;
   border-radius: 100%;
-  transform: translate(-40rem,-13rem);
+  transform: translate(-40rem, -13rem);
 }
