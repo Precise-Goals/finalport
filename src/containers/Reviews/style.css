@@ -1,0 +1,135 @@
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #ccc; /* Inactive dot color */
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #757272; /* Active dot color */
+}
+.reviright img {
+  width: 8rem;
+  border-radius: 100%;
+  background: #ab6acc;
+  box-shadow: 5px -4px rebeccapurple;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  background: #c2c1c1;
+  min-width: 25rem;
+  padding: 2%;
+  text-align: center;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  height: 30rem;
+}
+
+.revileft h4 {
+  color: #733393;
+  font-size: 20px;
+  margin: 0.15em 0 1em;
+}
+
+.para {
+  font-weight: 600;
+  color: black;
+}
+
+.line {
+  height: 3px;
+  width: 70%;
+  background: black;
+  border-radius: 50px;
+  margin-bottom: 1em;
+}
+
+.revileft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  column-gap: 8%;
+  scroll-snap-type: x mandatory;
+  max-width: 90rem;
+}
+
+.rightnav img,
+.leftnav img {
+  filter: invert(1);
+  width: 100%;
+  cursor: pointer;
+}
+
+.rightnav {
+  width: 3rem;
+  rotate: 90deg;
+}
+
+.leftnav {
+  width: 3rem;
+  rotate: 270deg;
+}
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3em;
+}
+.svg img {
+  width: 24%;
+  padding: 1%;
+}
+
+.svg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg h1 {
+  font-size: 50px;
+  font-weight: 600;
+  position: absolute;
+  transform: translate(-150%, -56%);
+}
+
+.svg p {
+  color: white;
+  font-size: 30px;
+  text-align: end;
+  font-weight: 600;
+  width: 41%;
+}
+div#Reviews {
+  padding: 5% 3%;
+  background: url(https://cdn.discordapp.com/attachments/1080886691067338815/1193956069119115347/image.png?ex=65ae993d&is=659c243d&hm=a51a24c7030c9e0068055c2801bb240b8dc0e287fe43c480675399cf6a3ea9a3&);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
