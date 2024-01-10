@@ -37,10 +37,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Wrap />} />
-          <Route path='/reviews' element={<Review />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/work-and-services' element={<Work />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/projects-n-timeline' element={<Work/>} />
         </Routes>
         <img src={top} onClick={() => smoothScroll('navbar')} className='top' alt='top'></img>
       </BrowserRouter>

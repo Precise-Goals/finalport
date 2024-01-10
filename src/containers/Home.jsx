@@ -14,8 +14,8 @@ export const Home = () => {
           </div>
         </div>
         <div className="hright">
-          <div className="i2"></div>
           <img src={headphone} alt="headphone" />
+          <div className="i2"></div>
         </div>
       </div>
       <div className="i3"></div>

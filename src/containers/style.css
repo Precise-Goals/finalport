@@ -67,11 +67,133 @@ div#Home {
   left: -8%;
   z-index: -1;
 }
+.contento {
+  position: relative;
+}
 .i2 {
-    width: 4rem;
-    height: 4rem;
-    background: white;
-    border-radius: 100%;
-    position: absolute;
-    right: 5%;
+  width: 4rem;
+  height: 4rem;
+  background: white;
+  border-radius: 100%;
+  position: absolute;
+  transform: translate(40rem, -8rem);
+}
+.hright {
+  position: relative;
+}
+
+/* about */
+.lay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding: 8% 20%;
+}
+.jobcards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 2em 0;
+  column-gap: 2em;
+}
+
+.cd img {
+  width: 150px;
+}
+
+.texts {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1em;
+  margin: 2em 0;
+}
+
+.texts p {
+  width: 65%;
+  font-size: 20px;
+  font-weight: 500;
+  color: #d6d3cb;
+}
+
+.texts h1 {
+  font-size: 45px;
+}
+
+.cd {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 20rem;
+}
+
+.cd p {
+  color: #a8a5a5;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+}
+.lay a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+button.projects {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5% 20%;
+  border-radius: 45rem;
+  color: black;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: white;
+  transition: all ease-in-out 0.2s;
+  border: 3px solid white;
+}
+button.projects:hover {
+  background-color: rgb(70, 69, 69);
+  color: white;
+  border: 3px solid white;
+}
+.texts,.lay,.lay a{
+  position: relative;
+}
+.lay::after {
+  width: 23rem;
+  content: "";
+  height: 43rem;
+  background: white;
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  border-radius: 54rem 0 0 54rem;
+}
+.texts::after {
+  content: "";
+  width: 100%;
+  height: 18rem;
+  background: #414141;
+  transform: translate(-43%,0);
+  border-radius: 4rem;
+  position: absolute;
+  z-index: -1;
+}
+.lay a::after {
+  content: "";
+  width: 4rem;
+  height: 4rem;
+  background: white;
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  transform: translate(-40rem,-13rem);
 }

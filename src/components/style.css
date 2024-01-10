@@ -130,8 +130,15 @@ button.submit {
   border-radius: 45rem;
   color: black;
   cursor: pointer;
+  background-color: white;
+  transition: all ease-in-out 0.2s;
+  border: 3px solid white;
 }
-
+button.submit:hover {
+  background-color: rgb(70, 69, 69);
+  color: white;
+  border: 3px solid white;
+}
 textarea.Message {
   height: 7.5rem;
 }
@@ -176,80 +183,78 @@ input:focus-visible,
   row-gap: 3em;
 }
 
-
-
 /* Navbar */
 .gola1 {
-    width: 25em;
-    height: 13em;
-    background: white;
-    border-radius: 0em 0 45em 0;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
+  width: 25em;
+  height: 13em;
+  background: white;
+  border-radius: 0em 0 45em 0;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
 }
 div#navbar {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
-    color: black;
-    padding: 2% 9%;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  color: black;
+  padding: 2% 9%;
+  overflow-x: clip;
 }
 
 .navleft h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .navleft h1 span {
-    font-family: 'Suez One';
-    font-size: 65px;
-    margin: 1px;
+  font-family: "Suez One";
+  font-size: 65px;
+  margin: 1px;
 }
 .gola2 {
-    width: 60rem;
-    height: 60rem;
-    background: white;
-    border-radius: 30rem;
-    rotate: 81deg;
-    position: absolute;
-    z-index: -1;
-    right: -8%;
-    top: -227%;
+  width: 60rem;
+  height: 60rem;
+  background: white;
+  border-radius: 30rem;
+  rotate: 81deg;
+  position: absolute;
+  z-index: -1;
+  right: -8%;
+  top: -227%;
 }
 
 .navright {
-    position: relative;
-    list-style: none;
+  position: relative;
+  list-style: none;
 }
-
 
 .navright ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    column-gap: 1.25em;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-    font-weight: 500;
-    color: #424242;
-    text-align: center;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1.25em;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 500;
+  color: #424242;
+  text-align: center;
 }
 .navright ul li {
-    border: 3px solid black;
-    padding: 1% 4%;
-    color: black;
-    background-color: white;
-    border-radius: 5rem;
-    transition: all ease-in-out .2s;
+  border: 3px solid black;
+  padding: 1% 4%;
+  color: black;
+  background-color: white;
+  border-radius: 5rem;
+  transition: all ease-in-out 0.2s;
 }
-.navright ul li:hover{
-    border: 3px solid black;
-    color: white;
-    background-color: black;
-    cursor: pointer;
-    text-align: center;
+.navright ul li:hover {
+  border: 3px solid black;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  text-align: center;
 }

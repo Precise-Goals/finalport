@@ -109,6 +109,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .svg h1 {
@@ -131,5 +132,3 @@ div#Reviews {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
