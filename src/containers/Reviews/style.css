@@ -127,8 +127,8 @@
   width: 41%;
 }
 div#Reviews {
-  padding: 5% 3%;
-  background: url(https://cdn.discordapp.com/attachments/1080886691067338815/1193956069119115347/image.png?ex=65ae993d&is=659c243d&hm=a51a24c7030c9e0068055c2801bb240b8dc0e287fe43c480675399cf6a3ea9a3&);
+  padding: 3%;
+  background: linear-gradient(81deg, #423b3b3d, #565252);
   background-repeat: no-repeat;
   background-size: cover;
 }

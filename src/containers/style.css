@@ -199,3 +199,130 @@ button.projects:hover {
   border-radius: 100%;
   transform: translate(-40rem, -13rem);
 }
+
+/* about */
+div#About {
+  display: flex;
+  color: white;
+  align-items: center;
+  padding: 5% 0;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 1em;
+}
+
+.img img {
+  width: 100%;
+}
+
+.atent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 7%;
+  flex-direction: row;
+}
+
+.info p {
+  text-align: end;
+}
+
+.info {
+  width: 50%;
+  font-size: 25px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 8rem;
+  justify-content: center;
+}
+.img,
+.info {
+  position: relative;
+}
+.img::after {
+  content: "";
+  display: block;
+  width: 65rem;
+  height: 20rem;
+  position: absolute;
+  background: linear-gradient(223deg, black, #827f8ab3);
+  z-index: -1;
+  top: 0;
+  left: 0;
+  border-radius: 5rem;
+  transform: translate(-36%, -32%);
+}
+.info::after {
+  display: block;
+  content: "";
+  width: 40rem;
+  height: 40rem;
+  background: linear-gradient(51deg, #0f0e0e, #4e4b4b);
+  position: absolute;
+  z-index: -1;
+  border-radius: 100%;
+}
+.diva {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  flex-direction: row;
+}
+
+.info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button.project {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 2em;
+  white-space: nowrap;
+  margin: 2em 0.25em;
+  border-radius: 4rem;
+  border: 3px solid white;
+  background: linear-gradient(51deg, #0f0e0e, #4e4b4b);
+  color: white;
+  border: 3px solid white;
+  transition: all ease-in 0.25s;
+}
+button.project:hover {
+  color: black;
+  background: rgb(211, 211, 211);
+  cursor: pointer;
+}
+.diva a {
+  position: relative;
+}
+#one::after,
+#two::after,
+#three::after {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  background: white;
+  border-radius: 100%;
+  position: absolute;
+}
+#one::after {
+  transform: translate(-12em, 6em);
+}
+
+a#two::after {
+  transform: translate(-50em, -18em);
+}
+
+a#three::after {
+  transform: translate(11em, 4em);
+}
