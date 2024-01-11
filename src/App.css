@@ -18,7 +18,7 @@ body {
   overflow-x: hidden;
   background-color: black;
   justify-content: center;
-  zoom: .9;
+  zoom: 80%;
 }
 ::-webkit-scrollbar,
 ::-webkit-scrollbar-track,
